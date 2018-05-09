@@ -4,11 +4,7 @@
 
 <h5>Let's see plugin features:</h5>
 Handsome Checkout lets you create high converting, tested and gorgeous checkout pages for WooCommerce with only a few clicks
-
-
-
-
-
+<br/>
 
 -Choose from Our Growing Library of Templates
 
