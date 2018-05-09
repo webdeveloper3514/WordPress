@@ -1,0 +1,99 @@
+.clear {
+    clear: both;
+}
+.page .wco_default_offer_page {
+    margin-top: 1em;
+}
+.page #content .wco_default_offer_page div.wco_default_offer_images_wrap,
+.page .wco_default_offer_page div.wco_default_offer_images_wrap {
+    float: left;
+    width: 48%;
+}
+.page #content .wco_default_offer_page div.wco_default_offer_summary,
+.page .wco_default_offer_page div.wco_default_offer_summary {
+    float: right;
+    width: 48%;
+}
+.page #content .wco_default_offer_page div.wco_default_offer_images_wrap div.images,
+.page .wco_default_offer_page div.wco_default_offer_images_wrap div.images {
+    float: none;
+    width: 100%;
+}
+.page #content .wco_default_offer_page div.thumbnails a,
+.page .wco_default_offer_page div.thumbnails a {
+    float: left;
+    width: 30.75%;
+    margin-right: 3.8%;
+    margin-bottom: 1em;
+}
+.page #content .wco_default_offer_page div.thumbnails a.last,
+.page .wco_default_offer_page div.thumbnails a.last {
+    margin-right: 0;
+}
+.page .wco_default_offer_page div.images div.thumbnails {
+    padding-top: 1em;
+}
+.page .wco_default_offer_page img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+}
+.page .wco_default_offer_page .wco_default_offer_summary > div {
+    margin-bottom: 1em;
+}
+.page .wco_default_offer_page .wco_default_offer_variation_price {
+    margin-top: 1em;
+}
+.page .wco_default_offer_page .wco_default_offer_title h2 {
+    clear: none;
+    margin-top: 0;
+    padding: 0;
+}
+.page .wco_default_offer_page .wco_default_offer_variations table,
+.page .wco_default_offer_page .wco_default_offer_variations table td {
+    border: 0;
+    border-collapse: collapse;
+    margin: 0;
+}
+.page .wco_default_offer_page .wco_default_offer_variations label {
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.page .wco_default_offer_page .wco_default_offer_variations select {
+    font-size: 15px;
+}
+.page .wco_default_offer_page .wco_default_offer_btns .wco_default_offer_btn:hover{
+    opacity: 0.9;
+}
+.page .wco_default_offer_page .wco_default_offer_btns .wco_default_offer_btn {
+    display: inline-block;
+    background: #DDD;
+    padding: 5px 15px;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: medium none;
+    box-shadow: none;
+}
+.page .wco_default_offer_page .wco_default_offer_btns .wco_default_offer_btn.wco_default_offer_accept:disabled {
+    opacity: 0.6;
+}                   
+@media screen and (max-width: 600px) {
+
+    .page #content .wco_default_offer_page div.wco_default_offer_images_wrap,
+    .page .wco_default_offer_page div.wco_default_offer_images_wrap {
+        float: none;
+        width: 100%;
+    }
+    .page #content .wco_default_offer_page div.wco_default_offer_summary,
+    .page .wco_default_offer_page div.wco_default_offer_summary {
+        float: none;
+        width: 100%;
+    }
+}

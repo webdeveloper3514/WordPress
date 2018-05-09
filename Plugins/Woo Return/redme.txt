@@ -1,0 +1,6 @@
+-Woo Return is WooCommerce based plugin for discount and cashback offer.
+-Discount based on quantity, on cart amount or on product amount
+-The plugin creates an offer for a new user, for a second purchase, for a specific user, for a birthday.
+-Wallet functionality, add money in the wallet.
+-Payment through the wallet.
+-And much more functionality
